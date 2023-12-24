@@ -1,0 +1,47 @@
+```html
+<!-- File: scripts/web_app/templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sustainable AI Environmental Impact Assessment</title>
+</head>
+<body>
+    <h1>Welcome to the Sustainable AI Environmental Impact Assessment</h1>
+    <!-- Add more content as needed -->
+</body>
+</html>
+```
+
+```html
+<!-- File: scripts/web_app/templates/predict.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Results</title>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <p>{{ impact }}</p>
+    <!-- Add more content as needed -->
+</body>
+</html>
+```
+
+```html
+<!-- File: scripts/web_app/templates/recommend.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+</head>
+<body>
+    <h1>Recommendations</h1>
+    <p>{{ recommendations }}</p>
+    <!-- Add more content as needed -->
+</body>
+</html>
+```
+

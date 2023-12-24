@@ -1,0 +1,48 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*~
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore all log files
+*.log
+
+# Ignore data files
+/data/raw/*
+/data/processed/*
+/data/models/*
+
+# Ignore IoT data
+/IoT/sensor_data/*
+
+# Ignore environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Ignore Python install and build artifacts
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore all .pdf in docs
+/docs/environmental_reports/*.pdf
+/docs/educational_resources/*.pdf
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
